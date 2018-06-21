@@ -635,13 +635,13 @@
         while(a.length>w ){
             if(q[i].innerText.indexOf(a[w][0],0)!=-1){
                 // console.log('===========')
-                console.log('ЗАПИТАННЯ '+(i+1)+' :'+a[w][0]);
-                console.log('ВІДПОВІДЬ:'+a[w][1]);
+                //console.log('ЗАПИТАННЯ '+(i+1)+' :'+a[w][0]);
+                //console.log('ВІДПОВІДЬ:'+a[w][1]);
                     var va=i*5;
                     while(v.length>va&&va<va+5){
                         if(v[va].innerText.indexOf(a[w][1], 0)!=-1){
                             v[va].click();
-                            console.log('АВТОВІДПОВІДЬ '+a[w][1]);
+                            //console.log('АВТОВІДПОВІДЬ '+a[w][1]);
                             break;
                         }else{
                             if(va==i*5+5){
